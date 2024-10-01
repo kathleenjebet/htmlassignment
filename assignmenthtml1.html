@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: left;
+        }
+
+        fieldset {
+            border: none;
+        }
+
+        legend {
+            font-size: 1.5em;
+            color: #333;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        table {
+            margin-top: 30px;
+            width: 60%;
+            border-collapse: collapse;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        th, td {
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <p>Welcome to Our Website. Please fill in the specified details.</p>
+    </header>
+
+    <!-- Image -->
+    <img src="/images/school.jfif" alt="School image">
+
+    <!-- Registration Form -->
+    <form method="post" action="">
+        <fieldset>
+            <legend>REGISTRATION</legend>
+
+            <!-- Name Field -->
+            <p>
+                <label for="name">Enter Name:</label>
+                <input type="text" id="name" name="name" size="50" required>
+            </p>
+
+            <!-- Admission Number Field -->
+            <p>
+                <label for="admno">Enter Admission No:</label>
+                <input type="number" id="admno" name="admno" size="50" required>
+            </p>
+
+            <!-- Submit Button -->
+            <p>
+                <input type="submit" value="Save">
+            </p>
+        </fieldset>
+    </form>
+
+    <!-- Table Displaying User Information -->
+    <table border="1" cellpadding="5">
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>PHONE NO</th>
+                <th>EMAIL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kathleen</td>
+                <td>7890189</td>
+                <td>kathleen123@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Marcus</td>
+                <td>43290229</td>
+                <td>marcusmugambi@yahoo.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- External Link -->
+    <p>
+        <a href="https://www.google.com/" target="_blank">Click here for more information</a>
+    </p>
+    
+</body>
+</html>
